@@ -1,4 +1,6 @@
 #!/usr/bin/python3
-for a in range(ord('a'), ord('z') + 1):
-    if a != ord('q') and a != ord('e'):
-        print('{:c}'.format(a), end="")
+for b in range(97, 123, 1):
+    if b == 113 or b == 101:
+        pass
+    else:
+        print("{}".format(chr(b)), end="")
